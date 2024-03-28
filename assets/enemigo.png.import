@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://bu2v8u30foqcx"
-path="res://.godot/imported/Shop NPC.png-c9467f631ad13aad3f40b028ada43900.ctex"
+uid="uid://db4efafaqag2x"
+path="res://.godot/imported/enemigo.png-1b53498ea907ff2f8fcbb6dc0a9a0116.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/Shop NPC.png"
-dest_files=["res://.godot/imported/Shop NPC.png-c9467f631ad13aad3f40b028ada43900.ctex"]
+source_file="res://assets/enemigo.png"
+dest_files=["res://.godot/imported/enemigo.png-1b53498ea907ff2f8fcbb6dc0a9a0116.ctex"]
 
 [params]
 

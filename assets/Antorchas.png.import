@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://dffurg88xkm3c"
-path="res://.godot/imported/Hielo.png-e57a4d0f399c3758c04933c30c881b34.ctex"
+uid="uid://c3pe77yyg07ie"
+path="res://.godot/imported/Antorchas.png-488f71d3dfe74e66705d0a69f69d45ea.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/Hielo.png"
-dest_files=["res://.godot/imported/Hielo.png-e57a4d0f399c3758c04933c30c881b34.ctex"]
+source_file="res://assets/Antorchas.png"
+dest_files=["res://.godot/imported/Antorchas.png-488f71d3dfe74e66705d0a69f69d45ea.ctex"]
 
 [params]
 

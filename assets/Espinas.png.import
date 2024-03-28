@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://ctwypyh5aa4ri"
-path="res://.godot/imported/Sci-fi Tubo Rojo.png-73087d8d29b2e94b4fa389e6e1ccbf4b.ctex"
+uid="uid://beeu4fdt46gnm"
+path="res://.godot/imported/Espinas.png-23907b7bafb6e230e6b4d47cb54879e0.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/Sci-fi Tubo Rojo.png"
-dest_files=["res://.godot/imported/Sci-fi Tubo Rojo.png-73087d8d29b2e94b4fa389e6e1ccbf4b.ctex"]
+source_file="res://assets/Espinas.png"
+dest_files=["res://.godot/imported/Espinas.png-23907b7bafb6e230e6b4d47cb54879e0.ctex"]
 
 [params]
 

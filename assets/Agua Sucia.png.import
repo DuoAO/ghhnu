@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://bjnybwqwib2ef"
-path="res://.godot/imported/Sci-fi Estructura Gris.png-d28d1217594869b911faf4f87c795349.ctex"
+uid="uid://d3ysb3a4wr4yb"
+path="res://.godot/imported/Agua Sucia.png-5ffc2e4840a9035a96c62b3da3f1107a.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/Sci-fi Estructura Gris.png"
-dest_files=["res://.godot/imported/Sci-fi Estructura Gris.png-d28d1217594869b911faf4f87c795349.ctex"]
+source_file="res://assets/Agua Sucia.png"
+dest_files=["res://.godot/imported/Agua Sucia.png-5ffc2e4840a9035a96c62b3da3f1107a.ctex"]
 
 [params]
 

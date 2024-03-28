@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://6koifurceuk7"
-path="res://.godot/imported/Sci-fi Tubo Verde.png-f46fde3554afa7b47a54684634ae4350.ctex"
+uid="uid://dn02ryj8c1irf"
+path="res://.godot/imported/Antorchas Pared.png-59dbe4cae76c2ae66e80bb8ea11ec90d.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/Sci-fi Tubo Verde.png"
-dest_files=["res://.godot/imported/Sci-fi Tubo Verde.png-f46fde3554afa7b47a54684634ae4350.ctex"]
+source_file="res://assets/Antorchas Pared.png"
+dest_files=["res://.godot/imported/Antorchas Pared.png-59dbe4cae76c2ae66e80bb8ea11ec90d.ctex"]
 
 [params]
 

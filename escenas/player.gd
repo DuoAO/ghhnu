@@ -1,30 +1,23 @@
 extends CharacterBody2D
 
-const GRID_SIZE = 24
-const ADDITIONAL_SPEED = 160
-var target_position = Vector2() # Posición a la que el jugador se moverá
+@onready var tilemap = $"../TileMap"
+var current_path: Array[Vector2i]
 
-func _physics_process(delta):
-	# Capturar pulsaciones del teclado
-	var movement = Vector2()
-	if Input.is_action_pressed("ui_right"):
-		movement.x += GRID_SIZE
-	if Input.is_action_pressed("ui_left"):
-		movement.x -= GRID_SIZE
-	if Input.is_action_pressed("ui_down"):
-		movement.y += GRID_SIZE
-	if Input.is_action_pressed("ui_up"):
-		movement.y -= GRID_SIZE
-
-	# Limitar el movimiento a incrementos de 24x24 píxeles
-	target_position = position + movement
-	target_position.x = round(target_position.x / GRID_SIZE) * GRID_SIZE
-	target_position.y = round(target_position.y / GRID_SIZE) * GRID_SIZE
-
-	# Calcular la dirección y la magnitud del movimiento
-	var move_dir = (target_position - position).normalized()
-	var move_amount = min((target_position - position).length(), ADDITIONAL_SPEED * delta)
-
-
-	# Detectar colisiones y mover al jugador
-	var collision = move_and_collide(move_dir * move_amount)
+func _physics_process(_delta):
+	if current_path.is_empty():
+		return
+		
+	var target_position = tilemap.map_to_local(current_path.front())
+	global_position = global_position.move_toward(target_position, 2)
+	
+	if global_position == target_position:
+		current_path.pop_front()
+		
+func _unhandled_input(event):
+	var click_position = get_global_mouse_position()
+	if tilemap.is_point_walkable(click_position):
+		if event.is_action_pressed("move_to"):
+			current_path = tilemap.astar.get_id_path(
+				tilemap.local_to_map(global_position),
+				tilemap.local_to_map(click_position)
+			).slice(1)

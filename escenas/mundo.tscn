@@ -3732,7 +3732,7 @@ sources/0 = SubResource("TileSetAtlasSource_j074w")
 
 [node name="CharacterBody2D" parent="." instance=ExtResource("2_30mf6")]
 z_index = 50
-position = Vector2(420, 372)
+position = Vector2(468, 540)
 
 [node name="Camera2D" type="Camera2D" parent="CharacterBody2D"]
 zoom = Vector2(3, 3)

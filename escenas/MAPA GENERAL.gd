@@ -25,6 +25,7 @@ func _ready():
 			var tile_data1 = get_cell_tile_data(1, coordinates)
 			var tile_data2 = get_cell_tile_data(2, coordinates)
 			var tile_data3 = get_cell_tile_data(3, coordinates)
+			var tile_data4 = get_cell_tile_data(4, coordinates)
 			if tile_data0 and tile_data0.get_custom_data('type') == 'wall':
 				astar.set_point_solid(coordinates)
 			if tile_data1 and tile_data1.get_custom_data('type') == 'wall':
@@ -32,6 +33,8 @@ func _ready():
 			if tile_data2 and tile_data2.get_custom_data('type') == 'wall':
 				astar.set_point_solid(coordinates)
 			if tile_data3 and tile_data3.get_custom_data('type') == 'wall':
+				astar.set_point_solid(coordinates)
+			if tile_data4 and tile_data4.get_custom_data('type') == 'wall':
 				astar.set_point_solid(coordinates)
 
 func is_point_walkable(local_position):

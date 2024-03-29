@@ -12,7 +12,7 @@ func _physics_process(_delta):
 	
 	if global_position == target_position:
 		current_path.pop_front()
-		
+
 func _unhandled_input(event):
 	var click_position = get_global_mouse_position()
 	if tilemap.is_point_walkable(click_position):

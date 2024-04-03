@@ -63,6 +63,10 @@ move_to={
 ]
 }
 
+[input_devices]
+
+pointing/emulate_touch_from_mouse=true
+
 [navigation]
 
 2d/canvas_textures/default_texture_filter=1
